@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".solution">
+    <Button
+        android:drawableEnd="@drawable/play"
+        android:id="@+id/video_start"
+        android:background="@drawable/text_cover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="ជំងឺអ៊ុចត្នោតលើដំណំាស្រូវ"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="20dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <ImageView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/brown" />
+        <ImageView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/brown2" />
+
+
+
+
+
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginTop="35dp"
+            android:textSize="18dp"
+            android:textColor="#050505"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_cover"
+            android:text="- ជំងឺនេះកើតឡើងនៅគ្រប់ដំណាក់កាលលូតលាស់ \nនិងគ្រប់ផ្នែកទាំងអស់នៃដំណាំស្រូវ។\nរោគសញ្ញានៃជំងឺនេះត្រូវបានមើលឃើញយ៉ាងច្បាស់នៅលើស្លឹកស្រូវ
+            \nហើយរោគសញ្ញាទូទៅរបស់វាមានពណ៌ត្នោត
+អ៊ុចៗលើស្លឹក។
+\nនៅពេលដែលយើងប្រើប្រាស់ពូជដែលមានជំងឺ វាអាចបណ្តាលឲ្យកើតជំងឺនៅលើថ្នាលសំណាប។\nដំណាក់កាលដែលចេញរោគសញ្ញាជំងឺអុចត្នោតច្រើនបំផុត គឺនៅដំណាំកាលស្រូវបែកគុម្ព ហើយ ផុតពីនេះ គឺចេញរោគសញ្ញានៅលើករកួរស្រូវ ដែលមានរោគសញ្ញាអុចខ្មៅនៅលើថ្នាំង។"
+
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="-> លក្ខណៈទូទៅ"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#2AD531"
+        android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_gravity="end"
+            android:textColor="#050505"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_cover"
+            android:text="ជំងឺកើតមាននៅក្នុងដី និងដំណាំស្រូវដែលមិនសូវសំបូរ
+សារធាតុចិញ្ចឹម  ភ្នាក់ងារបង្ករោគអាចរស់នៅលើកំទេចកំទីកាកសំណល់រុក្ខជាតិ, គល់ជញ្ជ្រាំង, ស្មៅចង្រៃ, និងគ្រាប់ពូជជាដើម ហើយបង្កជាជំងឺអុចត្នោតនៅពេលដំណាំដុះលូតលាស់
+ជាមធ្យម។ ស្ព័ររបស់វា ជាប្រភេទស្ព័រហើរតាមខ្យល់ ដែលបណ្តាលឲ្យភ្នាក់ងាបង្ករោគកកើតបានយ៉ាងលឿន។"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"/>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+
+<!--        android:layout_height="wrap_content">-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:textSize="15dp"-->
+<!--            android:textColor="#101010"-->
+<!--            android:text="djddbfjdbf"/>-->
+<!--    </LinearLayout>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="-> វិធានការគ្រប់គ្រង និងកម្ចាត់"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#30C536"
+            android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="@drawable/text_cover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="18dp"
+            android:textColor="#101010"
+            android:text="    • ប្រើប្រាស់ពូជដែលមានសុខភាពល្អ\n
+    • បង្កើនជីជាត់នៅក្នុងដី\n
+    • សម្អាតកម្ទេចកម្ទីកាកសំណល់រុក្ខជាតិ និងស្មៅចង្រៃ ដូចជា ពពួក Echinochloa spp, Leersia hexandra\n
+    • ប្រើប្រាស់ពូជធន់\n
+    • ធ្វើប្រព្រិត្តិកម្មគ្រាប់ពូជជាមួយថ្នាំកម្ចាត់សត្វល្អិតដូចជា ថ្នាំ benomyl ឬជាមួយទឹកក្តៅ។ ចំពោះថ្នាំ carbendazim, tricyclazole and mancozeb អាចប្រើសម្រាប់បាញ់នៅក្នុងស្រែ។\n
+*ពេលប្រើប្រាស់ថ្នាំកសិកម្ម ត្រូវតែស្លៀកសំលៀកបំពាក់ការពារ និងអនុវត្តន៍តាមការណែនាំនៅលើស្លាកសញ្ញានៃផលិតផល ដូចជាកម្រិតប្រើប្រាស់ ពេលវេលានៃការបាញ់ថ្នាំ និងរយៈពេលដែលអនុញ្ញាតឲ្យធ្វើការប្រមូលផល"/>
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginTop="35dp"
+            android:textColor="#050505"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_cover"
+
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
